@@ -26,8 +26,15 @@ const TutorialHeader = () => (
                isPersistent={false}>
                    <SideNavItems>
                        <HeaderSideNavItems>
-                           <HeaderMenuItem ><Link to='/repos'>Eashion Stock</Link></HeaderMenuItem>
+                           <HeaderMenuItem ><Link to='/sign'>Sign up</Link></HeaderMenuItem>
                        </HeaderSideNavItems>
+                       <HeaderSideNavItems>
+                           <HeaderMenuItem ><Link to='/repos'>Order</Link></HeaderMenuItem>
+                       </HeaderSideNavItems>
+                       <HeaderSideNavItems>
+                           <HeaderMenuItem ><Link to='/items'>Items</Link></HeaderMenuItem>
+                       </HeaderSideNavItems>
+
                    </SideNavItems>
                </SideNav>
                <HeaderGlobalBar>

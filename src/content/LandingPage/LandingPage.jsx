@@ -35,13 +35,16 @@ const LandingPage = () => {
               <h2 className="landing-page__subheading">
                 What is Fasioning?
               </h2>
-              <p className="landing-page__P">
-              Carbon is IBM’s open-source design system for digital
-          products and experiences. With the IBM Design Language
-          as its foundation, the system consists of working code,
-          design tools and resources, human interface guidelines,
-          and a vibrant community of contributors.
+              <div className="landing-page__P">
+              <p>
+              With Browzwear, apparel companies are moving to true-to-life digital samples that remove productivity barriers, speed up time to market, and enhance sustainability.
               </p>
+              
+              <h3>650+ ORGANIZATIONS USE BROWZWEAR</h3>
+              <p>
+Leading fashion brands and manufacturers around the world use Browzwear products to accelerate product development and business growth
+</p>
+              </div>
               <Button>Learn more</Button>
             </div>        
             <div className="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">

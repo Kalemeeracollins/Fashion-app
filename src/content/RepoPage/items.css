@@ -1,0 +1,64 @@
+.cont-1{ 
+  height: auto;
+  background-color: whitesmoke;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.advert, .top, .cont-2{margin: 3px;}
+.sell{
+  height: auto;
+  background-color: whitesmoke;
+    height: auto;
+    background: gainsboro;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.cont-2,.top{
+  grid-auto-flow: column;
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin: 5px;
+  box-sizing: border-box;
+}
+/* @media screen and (max-width:600px){
+    img
+    {
+        width: 150px;
+    }
+} */
+
+img{
+  border-radius: 5%;
+}
+.text{
+  margin: 0px;
+    font-size: 15px;
+    height: 20px;
+    color: yellowgreen;
+    font-weight: bolder;
+}
+.price{
+    margin: 0px;
+    font-size: 15px;
+    height: 20px;
+    color: blueviolet;
+    font-weight: bolder;
+  }
+.btn-1{
+    width: 80px;
+    height: 25px;
+    border: 1px solid black ;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    color: black;
+  }
+.btn-1:hover{
+    background-color: rgba(118, 236, 8, 0.753);
+    color: red;
+    cursor: pointer;
+} 

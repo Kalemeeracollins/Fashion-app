@@ -1,0 +1,93 @@
+body{
+    background: white;
+    text-align: center;
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: white;
+    box-shadow: 0 3px 5px rgb(126, 126, 126),0 -3px 3px rgb(122, 122, 122);
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 1%;
+    align-items: center;
+}
+.btn-box{
+    width: 220px;
+    height: 30px; 
+    margin: 25px auto;
+    text-align: center;
+    border-radius: 5%;
+}
+.input-field{
+    
+    width: 80%;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solidrgb(209, 47, 47);
+    outline: none;
+    margin-left: 40px;
+    margin-right: auto;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.password{
+    color: #777;
+    font-size: 12px;
+    margin: 20px;
+    float: right;
+    margin-right: 30px;
+}
+.image{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.sign{
+    border-radius: 100%;
+    margin-left: 30px;
+}
+.video{
+    
+    width: 100px;
+    height: 70px;
+    border-radius: 50%;
+    display: inline-block;
+}
+video{border-radius: 100%;}
+p{
+    font-size: 12px;
+    margin: auto;
+    margin: 5px;
+    font-weight: bold;
+}
+.p{
+    margin-top: 45px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.checkbox{
+    width: 56px;
+    position: absolute;
+    margin-top: 20px ;
+}
