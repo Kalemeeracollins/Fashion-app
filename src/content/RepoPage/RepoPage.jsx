@@ -1,43 +1,8 @@
 import React, { useState } from 'react';
 import { DataTable, TableContainer, Table, TableHead, TableRow, TableExpandHeader, TableHeader, TableBody, TableExpandRow, TableCell, TableExpandedRow} from 'carbon-components-react';
 import RepoTable from './RepoTable';
-import { gql } from 'apollo-boost';
-import { Query } from 'react-apollo';
 import { Link, DataTableSkeleton,  Pagination} from 'carbon-components-react';
 import { Language16 } from '@carbon/icons-react';
-
-const REPO_QUERY = gql`
-  query REPO_QUERY {
-    
-    organization(login: "carbon-design-system") {
-    
-      repositories(first: 75, orderBy: { field: UPDATED_AT, direction: DESC }) {
-        totalCount
-        nodes {
-          url
-          homepageUrl
-          issues(filterBy: { states: OPEN }) {
-            totalCount
-          }
-          stargazers {
-            totalCount
-          }
-          releases(first: 1) {
-            totalCount
-            nodes {
-              name
-            }
-          }
-          name
-          updatedAt
-          createdAt
-          description
-          id
-        }
-      }
-    }
-  }
-  `;
 
 const headers = [
   {
@@ -111,14 +76,13 @@ const getRowItems = (rows) =>
     const [totalItems, setTotalItems] = useState(0);
     const [firstRowIndex, setFirstRowIndex] = useState(0);
     const [currentPageSize, setCurrentPageSize] = useState(10);  
-  return <div className="bx--grig bx--grid--full-width bx--grid--no-gutter repo-page">
-    <div className="bx--row repo-page--r1">
-      <div className="bx--col-lg-16">
-     
-  
+    return (
+      <div className="bx--grid bx--grid--full-width bx--grid--no-gutter repo-page">
+        <div className="bx--row repo-page__r1">
+          <div className="bx--col-lg-16"><RepoTable headers={headers} rows={rows} /></div>
+        </div>
       </div>
-    </div>
-  </div>;
+    );
 };
 
 export default RepoPage;

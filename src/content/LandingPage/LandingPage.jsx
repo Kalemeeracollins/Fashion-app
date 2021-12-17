@@ -22,7 +22,7 @@ const LandingPage = () => {
         <a href="/">Getting started</a>
       </BreadcrumbItem>
     </Breadcrumb>
-    <h1 className="landing-page__heading">Design &amp; build with Carbon</h1>
+    <h1 className="landing-page__heading">Fashioning &amp; Designing with Ck-collections</h1>
   </div>
 </div>
 <div className="bx--row landing-page__r2">
@@ -33,7 +33,7 @@ const LandingPage = () => {
           <div className="bx--row landing-page__tab-content">
             <div className="bx--col-md-4 bx--col-lg-7">
               <h2 className="landing-page__subheading">
-                What is Fasioning?
+                What is Fashioning?
               </h2>
               <div className="landing-page__P">
               <p>
@@ -81,9 +81,11 @@ Leading fashion brands and manufacturers around the world use Browzwear products
 </div>
       <div className="bx--row landing-page__r3">
         <div className="bx--col-md-4 bx--col-lg-4">
-          <h3 className="landing-page__label">The Principles</h3>
+          <h3 className="landing-page__label">
+
+          </h3>
         </div>
-        <div className="bx--col-md-4 bx--col-lg-4">Carbon is Open</div>
+        <div className="bx--col-md-4 bx--col-lg-4">Fashion design is a form of art dedicated to the creation of clothing and other lifestyle accessories. Modern fashion design is divided into two basic categories: haute couture and ready-to-wear. The haute couture collection is dedicated to certain customers and is custom sized to fit these customers exactly.</div>
         <div className="bx--col-md-4 bx--col-lg-4">Carbon is Modular</div>
         <div className="bx--col-md-4 bx--col-lg-4">Carbon is Consistent</div>
       </div>

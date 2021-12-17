@@ -1,10 +1,12 @@
 body{
     background: white;
     text-align: center;
+    margin-top: 100px;
 }
 .form-box{
+
     width: 380px;
-    height: 480px;
+    height: 500px;
     position: relative;
     margin: 6% auto;
     background: white;

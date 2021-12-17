@@ -6,7 +6,7 @@ import {AppSwitcher20,Notification20,UserAvatar20,
 import { Link } from 'react-router-dom';
 
 const TutorialHeader = () => (
-<HeaderContainer
+<HeaderContainer className="header-container"
      render={({isSideNavExpanded, onClickSideNavExpand}) =>(
          <Header arial-label="Carbon Tutorial">
              <SkipToContent/>
@@ -20,6 +20,15 @@ const TutorialHeader = () => (
               <HeaderName element={Link} to="/" prefix="CK">
                 <Link to="/" >Fashions </Link> 
               </HeaderName>
+              <HeaderNavigation aria-label="Carbon Tutorial">
+          <HeaderMenuItem ><Link to='/sign'>Sign up</Link></HeaderMenuItem>
+        </HeaderNavigation>
+        <HeaderNavigation aria-label="Carbon Tutorial">
+          <HeaderMenuItem ><Link to='/repos'>Order</Link></HeaderMenuItem>
+        </HeaderNavigation>
+        <HeaderNavigation aria-label="Carbon Tutorial">
+          <HeaderMenuItem ><Link to='/items'>Items</Link></HeaderMenuItem>
+        </HeaderNavigation>
               <SideNav
                aria-label="Side navigation"
                expanded={isSideNavExpanded}
